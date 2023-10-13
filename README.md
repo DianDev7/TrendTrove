@@ -1,0 +1,2 @@
+# TrendTrove
+E-Commerce Website
