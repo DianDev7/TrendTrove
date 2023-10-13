@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <title>Trend Trove</title>
+
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" >
+    <title>Delivery Page</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+
+        <a href="#" class=" logo">Trend Trove</a>
+        <div class="bx bx-menu" id="menu-icon"> </div>
+
+        <ul class="navbar">
+            <li><a href="Delivery.html">Delivery</a></li>
+            <li><a href="index.php">Shop</a></li>
+            <li><a href="index.php#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <script>
+          document.getElementById("menu-icon").addEventListener("click", function() {
+              var navbar = document.querySelector(".navbar");
+              navbar.classList.toggle("active");
+          });
+      </script>
+        <div class="icons">
+          
+            <a href="#  "><i class='bx bxs-shopping-bag'></i> </a>
+        </div>
+
+    </header>
+
+
+<div>
+
+
+    <div class="deliveryContent">   
+   <div class = "deliveryDetails">    
+    <h1>Delivery Details</h1>
+    <p>Your order will be delivered using our reliable and efficient delivery service.</p>
+    <p>Our dedicated delivery team ensures that your package is handled with care and delivered to your doorstep.</p>
+    <p>We guarantee on-time delivery, so you can expect your order to arrive promptly.</p>
+    <p>In case of any delays or issues, our customer support team is available 24/7 to assist you.</p>
+    <p>Thank you for choosing Trend Trove for your online shopping needs!</p>
+  </div>
+   
+    <div class="container">
+        <h1>Delivery Page</h1>
+        
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="address">Address:</label>
+          <textarea id="address" name="address" required></textarea>
+          
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+          
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+      <div class = "deliveryPrice">    
+        <h2>Delivery Details</h2>
+  
+    <p>At Trend Trove, we offer various delivery methods to cater to your needs:</p>
+    
+    <h3>Standard Delivery</h3>
+    <p>Price: $9.99</p>
+    <p>Estimated Delivery Time: 3-5 business days</p>
+    <p>Our standard delivery service ensures reliable shipping at an affordable price.</p>
+    
+    <h3>Express Delivery</h3>
+    <p>Price: $19.99</p>
+    <p>Estimated Delivery Time: 1-2 business days</p>
+    <p>Need your items urgently? Our express delivery option guarantees faster delivery to your doorstep.</p>
+    
+    <h3>Same-Day Delivery</h3>
+    <p>Price: $29.99</p>
+    <p>Estimated Delivery Time: Same day</p>
+    <p>For those last-minute fashion emergencies, our same-day delivery service ensures you receive your order promptly.</p>
+    
+    <p>Please note that delivery times may vary based on your location and the availability of the items you ordered.</p>
+    <p>Once your order is shipped, you will receive a tracking number to monitor the progress of your delivery.</p>
+    <p>If you have any questions or need assistance, our dedicated customer support team is here to help you.</p>
+ 
+
+      </div>
+    </div>
+</div>
+</div>
+
+
+
+
+       <!--Contact Start-->
+       <section style = "margin-top: 3%; "class="contact" id="contact">
+        <div class="main-contact">
+            <div class="contact-content">
+                <li><a href="index.php">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                
+                <li><a href="#contact">Contact</a></li>
+            </div>
+            <div class="contact-content">
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">Store Policy</a></li>
+                <li><a href="#">Payment Methods</a></li>
+
+            </div>
+
+            <div class="contact-content">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Tel: +27 76 707 4101</a></li>
+
+
+            </div>
+
+            <div class="contact-content">
+                <li><a href="https://www.facebook.com/trendtrove/">Facebook</a></li>
+                <li><a href="https://www.instagram.com/trendtrove.in/">Instagram</a></li>
+                <li><a href="https://twitter.com/trovedao_?lang=en">Twitter</a></li>
+
+            </div>
+
+
+        </div>
+   
+        <div class="last">
+            <p> 2023 by Trend Trove. Proudly created with DevHart7</p>
+        </div>
+
+    </Section>
+
+
+
+</body>
+
+
+<style>
+    body {
+      background-color: lightgrey;
+      padding-top: 7%;
+      
+    }
+    .deliveryPrice{
+        background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      
+      margin: 0 auto;
+
+
+
+    }
+    .deliveryContent{
+        display: flex;
+        justify-content: space-between;
+    }
+.deliveryDetails{
+
+    background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      margin: 0 auto;
+
+
+}
+    .container {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    textarea {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+
+  </style>
+</html>
